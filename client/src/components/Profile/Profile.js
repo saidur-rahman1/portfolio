@@ -33,7 +33,7 @@ function Profile() {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'Resume-Saidur-Rahman.pdf';
+                alink.download = 'Saidur-Rahman.pdf';
                 alink.click();
             })
         })

@@ -43,18 +43,18 @@ let resumeData = {
             description: 
             `Responsibilities:
             Project 01: Web-based Photo sharing Application to share photos among a closed social group
-            • Built a web application using Angular 8, HTML, CSS, Boostrap, JavaScript, TypeScript
-            • Secure Application using Firebase Authentication system
+            • Built a web application using Angular 8, HTML, CSS, Bootstrap, JavaScript, TypeScript
+            • Secured application using Firebase Authentication system
             • Built a backend app using Spring Boot, Spring Data Mongo, Mongo Atlas
-            • Store and serve images from Amazon S3
-            • Host the application in AWS EC2 in Nginx server
+            • Stored and served images from Amazon S3
+            • Hosted the application in AWS EC2 in Nginx server
             
             Project 02: GetMeHired Platform (Web-based application for enrolling GetMeHired's students and keeping track of their progress)
             • Fixing bugs of frontend application built on Angular 8, HTML, CSS, Boostrap, JavaScript, TypeScript
             • Enhancing backend application built on Spring Boot, Spring Data Mongo, Mongo Atlas.`
         },
         {
-            title: "Technical Support Representative",
+            title: "Technical Support Representative (Remote)",
             institute: "Fusion BPO Services",
             time: "August 2017 - October 2023",
             description: 
