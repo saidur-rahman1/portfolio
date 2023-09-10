@@ -1,0 +1,52 @@
+.timeline {
+    padding: 0;
+}
+
+/* Header */
+
+
+/* Header title */
+.timeline .timeline_header {
+    padding-top: 7px;
+}
+
+.timeline .timeline_firstitem {
+    min-height: 80px;
+}
+
+.timeline .MuiTimelineItem-root {
+    min-height: 0px;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent::before {
+    display: none;
+}
+
+.timeline .timeline_dot_header {
+    background-color: var(--main-color);
+    font-size: small;
+    padding: 10px;
+}
+
+.timeline .timeline_dot {
+    border-color: var(--main-color);
+    padding: 2px;
+}
+
+.timeline .MuiTimelineConnector-root {
+    background-color: #eee;
+}
+
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+    font-size: 20px;
+    color: darkslategray;
+}
+
+.timeline .separator_padding {
+    padding-left: 18px;
+}
+
+.timeline .timeline_content {
+    padding-top: 0px;
+    margin-bottom: 20px;
+}

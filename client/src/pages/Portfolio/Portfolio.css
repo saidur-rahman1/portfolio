@@ -1,0 +1,73 @@
+/* Tabs */
+.customTabs .active {
+    color: var(--main-color) !important;
+}
+
+.customTabs .customTabs_item {
+    padding: 0px !important;
+    min-width: 0px !important;
+    margin-right: 20px !important;
+    text-transform: inherit !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    outline-width: 0px !important;
+}
+
+/* Cards */
+.custom_card {
+    height: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+    border-radius: 5px;
+    overflow: hidden;
+    outline-width: 0px !important;
+}
+
+.custom_card .custom_card_image {
+    height: 140px;
+}
+
+.custom_card .custom_card_title {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.custom_card .custom_card_summary {
+    color: #787878;
+}
+
+
+/* Dialog */
+.dialog {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px; */
+}
+
+.dialog .dialog_image {
+    max-height: 300px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.dialog .dialog_descriptions {
+    margin-top: 10px !important;
+}
+
+.dialog .dialog_actions {
+    justify-content: center !important;
+    margin-bottom: 10px;
+}
+
+.dialog .dialog_icon {
+    color: darkslategray;
+    margin: 0px 12px;
+    cursor: pointer;
+}
+
+.dialog .dialog_icon :hover {
+    color: var(--main-color);
+    
+}

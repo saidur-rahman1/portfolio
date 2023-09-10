@@ -1,0 +1,91 @@
+.about_me_text {
+    color: #787878;
+    display: flex;
+    line-height: 18px !important;
+    margin-bottom: 10px !important;
+}
+
+.about_me_text .timeline_dot {
+    border-color: var(--main-color);
+    padding: 2px;
+    margin-right: 5px;
+    margin-top: 5px !important;
+}
+
+.experience_time {
+    color: #787878;
+    font-size: small !important;
+}
+
+.experience_text {
+    color: #787878;
+    white-space: pre-line;
+    font-size: small !important;
+    margin-top: 10px !important;
+}
+
+.timeline {
+    padding: 0px;
+    margin-left: -10px;
+}
+
+.timeline_item {
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+.timeline_item_internal {
+    margin-left: 18px;
+}
+
+.connector_height {
+    height: 20px;
+}
+
+.timeline_dot_header {
+    background-color: var(--main-color);
+    font-size: small;
+    padding: 10px;
+}
+
+.timeline_dot {
+    border-color: var(--main-color);
+    padding: 2px;
+    margin-top: 15px !important;
+}
+
+.timeline_header {
+    padding-top: 12px !important;
+}
+
+/* Skills */
+
+.skill {
+    border-radius: 8px !important;
+    padding: 20px;
+    box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08) !important;
+    min-height: 186px;
+    height: 100%;
+}
+
+.skill .skill_title {
+    font-size: 15px !important;
+    font-weight: 500 !important;
+    line-height: 35px !important;
+}
+
+.skill .skill_description {
+    display: flex;
+    align-items: center;
+    color: #787878 !important;
+    font-weight: 400 !important;
+    line-height: 18px !important;
+}
+
+.skill .skill_description .timeline_dot {
+    border-color: var(--main-color);
+    padding: 2px;
+    margin-right: 5px;
+}
+
+/* Contact Me */
