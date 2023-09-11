@@ -8,7 +8,7 @@ export default function Footer() {
     return(
         <div maxWidth="xl" className='footer'>
             <div className='text_left'>
-                <Typography className='footer_name'>Designed and developed by {resumeData.name}</Typography>
+                <Typography className='footer_name'>Designed & developed by {resumeData.name}</Typography>
             </div>
             <div className='text_right'>
                 <Typography className='footer_credits'>

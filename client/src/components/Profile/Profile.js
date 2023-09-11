@@ -8,35 +8,32 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import GetAppIcon from '@mui/icons-material/GetApp';
 
-// import BasicTimeline, {CustomTimelineSeperator} from "../Timeline/Timeline";
 import {resumeData} from "../../utils/resumeData";
 import CustomButton from "../Button/Button";
+import SaidurRahman from "./Saidur-Rahman.pdf";
 
 import './Profile.css';
 import '../../pages/Resume/Resume.css';
 
-// const CustomTimelineItem = ({title, text, link}) => (
-//     <TimelineItem>
-//         <CustomTimelineSeperator />
-//         <TimelineContent > {/*className="timeline_content"*/}
-//             {link ? (<Typography ><span>{title}:</span> <a href={link} target="_blank" rel="noreferrer">{text}</a></Typography>) : 
-//             (<Typography ><span>{title}:</span> {text}</Typography>)}
-//         </TimelineContent> {/* className="timelineItem_text" */}
-//     </TimelineItem>
-// );
 
 function Profile() {
 
     const onButtonClick = () => {
-        fetch('Saidur-Rahman.pdf').then(response => {
-            response.blob().then(blob => {
-                const fileURL = window.URL.createObjectURL(blob);
-                let alink = document.createElement('a');
-                alink.href = fileURL;
-                alink.download = 'Saidur-Rahman.pdf';
-                alink.click();
-            })
-        })
+        // fetch('Saidur-Rahman.pdf').then(response => {
+        //     response.blob().then(blob => {
+        //         const fileURL = window.URL.createObjectURL(blob);
+        //         let alink = document.createElement('a');
+        //         alink.href = fileURL;
+        //         alink.download = 'Saidur-Rahman.pdf';
+        //         alink.click();
+        //     })
+        // })
+        const link = document.createElement('a');
+        link.download = 'Saidur-Rahman';
+
+        link.href = SaidurRahman;
+
+        link.click();
     }
 
     return(
@@ -50,18 +47,7 @@ function Profile() {
                 <img src={require('../../assets/images/img2.jpg')} alt="Profile" />
             </figure>
 
-            <div className="profile_details"> {/* className="profile_details" */}
-                {/* <BasicTimeline icon={<PersonOutlineOutlinedIcon />}>
-                    <CustomTimelineItem title='Email' text={resumeData.email} />
-
-                    {Object.keys(resumeData.socials).map((key) => (
-                        <CustomTimelineItem 
-                            title={key} 
-                            text={resumeData.socials[key].text} 
-                            link={resumeData.socials[key].link} />
-                    ))}
-                </BasicTimeline> */}
-
+            <div className="profile_details">
 
                 <Timeline className='timeline'
                     sx={{
@@ -101,10 +87,6 @@ function Profile() {
                             <TimelineContent>
                                 {resumeData.socials[key].link ? (<Typography className="timelineItem_text"><a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">{resumeData.socials[key].text}</a></Typography>) : 
                                     (<Typography className="timelineItem_text">{resumeData.socials[key].text}</Typography>)}
-                                    {/* <Typography>{education.institute}</Typography>
-                                    <Typography variant='body2'>{education.degree}</Typography>
-                                    <Typography className='experience_text'>{education.program}</Typography>
-                                    <Typography className='experience_time'>{education.time}</Typography> */}
                             </TimelineContent>
 
                         </TimelineItem>

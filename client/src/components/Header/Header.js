@@ -35,7 +35,6 @@ function Header() {
   };
 
   return (
-    // <AppBar position="static" className='header'>
       <Container maxWidth="xl" className='header'>
         <Toolbar disableGutters>
 
@@ -48,23 +47,6 @@ function Header() {
             </Link>
           </div>
           
-          {/* <Typography
-            variant="h6"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'white',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography> */}
 
           {/* Code for header items in small screens */}
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -115,31 +97,6 @@ function Header() {
             </Menu>
           </Box>
 
-          {/* Code for header title and logo in small screens */}
-          {/* <Link
-            to={"/"}
-            style={{ textDecoration: 'none' }}>
-            <HomeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1, color: 'black' }} />
-          </Link> */}
-          {/* <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href="/"
-            sx={{
-              mr: 2,
-              display: { xs: 'flex', md: 'none' },
-              flexGrow: 1,
-              fontFamily: 'monospace',
-              fontWeight: 700,
-              letterSpacing: '.3rem',
-              color: 'inherit',
-              textDecoration: 'none',
-            }}
-          >
-            LOGO
-          </Typography> */}
-
           {/* Code for header items in big screens */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
@@ -161,33 +118,6 @@ function Header() {
           {/* Code for image */}
           <Box sx={{ flexGrow: 0 }} className="header_right">
           
-            {/* <Tooltip title="Open settings">
-              <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-              </IconButton>
-            </Tooltip>
-            <Menu
-              sx={{ mt: '45px' }}
-              id="menu-appbar"
-              anchorEl={anchorElUser}
-              anchorOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'right',
-              }}
-              open={Boolean(anchorElUser)}
-              onClose={handleCloseUserMenu}
-            >
-              {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                  <Typography textAlign="center">{setting}</Typography>
-                </MenuItem>
-              ))}
-            </Menu> */}
             {Object.keys(resumeData.socials).map((key) => (
               <a href={resumeData.socials[key].link} target="_blank" rel="noreferrer">
                 {resumeData.socials[key].icon}
@@ -202,7 +132,6 @@ function Header() {
           </Box>
         </Toolbar>
       </Container>
-    // </AppBar>
   );
 }
 export default Header;
