@@ -56,7 +56,7 @@ let resumeData = {
         {
             title: "Technical Support Representative (Remote)",
             institute: "Fusion BPO Services",
-            time: "August 2017 - October 2023",
+            time: "August 2017 - August 2023",
             description: 
             `Achievements:
             • Promoted to Tier 1 Email Migration & Cloud agent from junior agent.
