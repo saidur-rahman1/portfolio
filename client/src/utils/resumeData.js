@@ -37,24 +37,20 @@ let resumeData = {
 
     experiences: [
         {
-            title: "Full Stack Developer (Apprenticeship)",
+            title: "Full Stack Developer",
             institute: "Next Level Soft Inc.",
             time: "October 2022 - Present",
             description: 
             `Responsibilities:
-            Project 01: Web-based Photo sharing Application to share photos among a closed social group
-            • Built a web application using Angular 8, HTML, CSS, Bootstrap, JavaScript, TypeScript
-            • Secured application using Firebase Authentication system
-            • Built a backend app using Spring Boot, Spring Data Mongo, Mongo Atlas
-            • Stored and served images from Amazon S3
-            • Hosted the application in AWS EC2 in Nginx server
-            
-            Project 02: GetMeHired Platform (Web-based application for enrolling GetMeHired's students and keeping track of their progress)
-            • Fixing bugs of frontend application built on Angular 8, HTML, CSS, Boostrap, JavaScript, TypeScript
-            • Enhancing backend application built on Spring Boot, Spring Data Mongo, Mongo Atlas.`
+            • Identifying and resolving frontend application bugs in Angular 8, HTML, CSS, Bootstrap, JavaScript, and TypeScript, resulting in an improved user experience.
+            • Contributing to the enhancement of the backend application built on Spring Boot, Spring Data Mongo, and Mongo Atlas, ensuring the platform's stability and scalability.
+            • Implementing a robust security layer by integrating the Firebase Authentication system to ensure the confidentiality of user data and content.
+            • Setting up storage and delivery system using Amazon S3, optimizing performance and user experience.
+            • Deploying web application on AWS EC2 instances, configuring Nginx server to ensure high availability and performance.
+            • Collaborating with the team to maintain and optimize the overall functionality of platform, keeping track and providing ongoing technical support.`
         },
         {
-            title: "Technical Support Representative (Remote)",
+            title: "Technical Support Representative",
             institute: "Fusion BPO Services",
             time: "August 2017 - August 2023",
             description: 
@@ -71,6 +67,20 @@ let resumeData = {
             • Providing technical support in Marketplace to different channel partners and escalating complex issues to the senior support team 
             • Effectively identifying new virus and spyware issues as they arise and remain up to date on the latest removal techniques
             • Providing training to junior agents for cloud applications and email migrations`
+        },
+        {
+            title: "Web Developer",
+            institute: "Strategeek Digital Ltd.",
+            time: "June 2014 - December 2015",
+            description: 
+            `Responsibilities:
+            • Involved in improving efficiency and application of existing web services for clients
+            • Developed websites and tested applications accordingly
+            • Developed front end interface with HTML5, CSS, Bootstrap, JavaScript
+            • Data storage and retrieval done using SQL database
+            • Input website content into computerized databases with custom dashboards
+            • Performed QA of the work done by subordinates via code testing and validating new designs
+            • Provided technical support as necessary`
         }
     ],
 
