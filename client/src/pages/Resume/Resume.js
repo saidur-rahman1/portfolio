@@ -143,8 +143,8 @@ const Resume = () => {
                                         <TimelineContent>
                                             <Typography>{certification.degree}</Typography>
                                             <Typography variant='body2'>{certification.institute}</Typography>
+                                            <Typography className='certification_text'><a href={certification.url} target="_blank" rel="noreferrer">{certification.certificate}</a></Typography>
                                             <Typography className='experience_time'>{certification.time}</Typography>
-                                            <Typography className='experience_text'><a href={certification.url} target="_blank" rel="noreferrer">{certification.certificate}</a></Typography>
                                         </TimelineContent>
 
                                 </TimelineItem>

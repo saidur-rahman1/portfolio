@@ -98,8 +98,8 @@ let resumeData = {
     certification: [
         {
             institute: "HarvardX",
-            degree: "HarvardX: CS50's Introduction to Programming with Python",
-            certificate: "Certificate",
+            degree: "CS50's Introduction to Programming with Python",
+            certificate: "Link to online certificate",
             time: "Issued November 2023",
             url: "https://cs50.harvard.edu/certificates/f4ee721d-b753-4803-bc22-c8a214640bb3"
         },
