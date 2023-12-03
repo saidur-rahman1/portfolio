@@ -37,36 +37,32 @@ let resumeData = {
 
     experiences: [
         {
-            title: "Full Stack Developer",
-            institute: "Next Level Soft Inc.",
-            time: "October 2022 - Present",
+            title: "Technical Support Representative",
+            institute: "Fusion BPO Services Inc.",
+            time: "August 2017 - Present",
             description: 
             `Responsibilities:
-            • Identifying and resolving frontend application bugs in Angular 8, HTML, CSS, Bootstrap, JavaScript, and TypeScript, resulting in an improved user experience.
-            • Contributing to the enhancement of the backend application built on Spring Boot, Spring Data Mongo, and Mongo Atlas, ensuring the platform's stability and scalability.
-            • Implementing a robust security layer by integrating the Firebase Authentication system to ensure the confidentiality of user data and content.
-            • Setting up storage and delivery system using Amazon S3, optimizing performance and user experience.
-            • Deploying web application on AWS EC2 instances, configuring Nginx server to ensure high availability and performance.
-            • Collaborating with the team to maintain and optimize the overall functionality of platform, keeping track and providing ongoing technical support.`
-        },
-        {
-            title: "Technical Support Representative",
-            institute: "Fusion BPO Services",
-            time: "August 2017 - August 2023",
-            description: 
-            `Achievements:
-            • Promoted to Tier 1 Email Migration & Cloud agent from junior agent.
-            • Promoted to Tier 2 Email Migration & Cloud agent from Tier 1 agent.
-            
-            Responsibilities:
             • Responding to requests for assistance by chat or telephone (inbound)
             • Handling technical inquiries and other customer service duties and logging resolution steps in a knowledge base when required, to improve team resources
-            • Diagnosing & troubleshooting TCP/IP, Microsoft 365 & Google Workspace applications and cloud applications such as VMware, Acronis, Backupify, Cloud Finder, Mimecast 
+            • Diagnosing & troubleshooting TCP/IP, Microsoft 365 & Google Workspace applications and cloud applications such as VMware, Acronis, Backupify, Cloud Finder, Mimecast
             • Onboarding, email migrations and support for Microsoft 365 and Google Workspace
             • Remote support for hardware and software issues
-            • Providing technical support in Marketplace to different channel partners and escalating complex issues to the senior support team 
+            • Providing technical support in Marketplace to different channel partners and escalating complex issues to the senior support team
             • Effectively identifying new virus and spyware issues as they arise and remain up to date on the latest removal techniques
             • Providing training to junior agents for cloud applications and email migrations`
+        },
+        {
+            title: "Full Stack Developer Apprentice",
+            institute: "Next Level Soft Inc.",
+            time: "October 2022 - November 2023",
+            description: 
+            `Responsibilities:
+            • Identified and resolved frontend application bugs in Angular 8, HTML, CSS, Bootstrap, JavaScript, and TypeScript, resulting in an improved user experience.
+            • Contributed to the enhancement of the backend application built on Spring Boot, Spring Data Mongo, and Mongo Atlas, ensuring the platform's stability and scalability.
+            • Implemented a robust security layer by integrating the Firebase Authentication system to ensure the confidentiality of user data and content.
+            • Set up storage and delivery system using Amazon S3, optimizing performance and user experience.
+            • Deployed web applications on AWS EC2 instances, configuring Nginx server to ensure high availability and performance.
+            • Collaborated with the team to maintain and optimize the overall functionality of platform, keeping track and providing ongoing technical support.`
         },
         {
             title: "Web Developer",
@@ -99,10 +95,20 @@ let resumeData = {
         }
     ],
 
+    certification: [
+        {
+            institute: "HarvardX",
+            degree: "HarvardX: CS50's Introduction to Programming with Python",
+            certificate: "Certificate",
+            time: "Issued November 2023",
+            url: "https://cs50.harvard.edu/certificates/f4ee721d-b753-4803-bc22-c8a214640bb3"
+        },
+    ],
+
     skills: [
         {
             title: "Languages",
-            description: ["Java", "JavaScript", "TypeScript", "PHP", "C++"]
+            description: ["Python", "Java", "JavaScript", "TypeScript", "C++"]
         },
         {
             title: "Databases",

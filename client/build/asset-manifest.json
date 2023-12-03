@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2bf1b3b.css",
-    "main.js": "/static/js/main.56138094.js",
+    "main.css": "/static/css/main.08ca4c88.css",
+    "main.js": "/static/js/main.3475f4a6.js",
     "static/media/img2.jpg": "/static/media/img2.02973fa7684fe4cfba46.jpg",
-    "static/media/Saidur-Rahman.pdf": "/static/media/Saidur-Rahman.f4dec5db1da85c660a7b.pdf",
+    "static/media/Saidur-Rahman.pdf": "/static/media/Saidur-Rahman.3248f9b8923188f0f642.pdf",
     "index.html": "/index.html",
-    "main.e2bf1b3b.css.map": "/static/css/main.e2bf1b3b.css.map",
-    "main.56138094.js.map": "/static/js/main.56138094.js.map"
+    "main.08ca4c88.css.map": "/static/css/main.08ca4c88.css.map",
+    "main.3475f4a6.js.map": "/static/js/main.3475f4a6.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2bf1b3b.css",
-    "static/js/main.56138094.js"
+    "static/css/main.08ca4c88.css",
+    "static/js/main.3475f4a6.js"
   ]
 }

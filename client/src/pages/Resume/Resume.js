@@ -99,10 +99,52 @@ const Resume = () => {
                                     </TimelineSeparator>
                                     
                                         <TimelineContent>
-                                            <Typography>{education.institute}</Typography>
-                                            <Typography variant='body2'>{education.degree}</Typography>
+                                            <Typography>{education.degree}</Typography>
+                                            <Typography variant='body2'>{education.institute}</Typography>
                                             <Typography className='experience_text'>{education.program}</Typography>
                                             <Typography className='experience_time'>{education.time}</Typography>
+                                        </TimelineContent>
+
+                                </TimelineItem>
+                            ))}
+                        </Timeline>
+                    </Grid>
+
+                    {/* Certifications */}
+                    <Grid container item xs={12}>
+                        <Timeline className='timeline'
+                            sx={{
+                                [`& .${timelineItemClasses.root}:before`]: {
+                                flex: 0,
+                                padding: 0,
+                                },
+                            }}
+                            >
+                            <TimelineItem>
+                                <TimelineSeparator>
+                                    <TimelineDot className='timeline_dot_header'>
+                                        <SchoolIcon />
+                                    </TimelineDot>
+                                <TimelineConnector className='connector_height' />
+                                </TimelineSeparator>
+                                <TimelineContent>
+                                    <Typography variant='h6' className='timeline_header'>
+                                        Certifications
+                                    </Typography>
+                                </TimelineContent>
+                            </TimelineItem>
+                            {resumeData.certification.map(certification => (
+                                <TimelineItem className='timeline_item'>
+                                    <TimelineSeparator>
+                                        <TimelineDot variant='outlined' className='timeline_dot' />
+                                        <TimelineConnector />
+                                    </TimelineSeparator>
+                                    
+                                        <TimelineContent>
+                                            <Typography>{certification.degree}</Typography>
+                                            <Typography variant='body2'>{certification.institute}</Typography>
+                                            <Typography className='experience_time'>{certification.time}</Typography>
+                                            <Typography className='experience_text'><a href={certification.url} target="_blank" rel="noreferrer">{certification.certificate}</a></Typography>
                                         </TimelineContent>
 
                                 </TimelineItem>

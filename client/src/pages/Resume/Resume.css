@@ -24,6 +24,22 @@
     margin-top: 10px !important;
 }
 
+.certification_text {
+    color: #787878;
+    white-space: pre-line;
+    font-size: small !important;
+    margin-top: 10px !important;
+}
+
+.certification_text > a {
+    text-decoration: none;
+    color: #787878;
+}
+
+.certification_text > a:hover {
+    color: var(--main-color);
+}
+
 .timeline {
     padding: 0px;
     margin-left: -10px;
