@@ -17,7 +17,7 @@ let about_me =
 
 let resumeData = {
     name: 'Saidur Rahman',
-    title: 'Full Stack Developer',
+    title: 'Python | Java | React | Cloud | Tech Support',
 
     birthday: 'February 5',
     email: 'saidur.rahmann@gmail.com',
